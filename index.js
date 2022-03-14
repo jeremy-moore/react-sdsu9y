@@ -9,7 +9,7 @@ export class Dock extends SampleBase {
   constructor() {
     super(...arguments);
     this.enableDock = true;
-    this.dockSize = '72px';
+    this.dockSize = '72px'; 
     this.width = '220px';
   }
   render() {
